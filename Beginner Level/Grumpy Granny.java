@@ -2,7 +2,8 @@
 After the death of their mother, Alphonse and Edward now live with Pinako and Winry.
 Pinako is worried about their obsession with Alchemy, and that they don't give attention to their studies.
 
-So to improve their mathematical solving ability, every day she gives a mathematical problem to solve. They can go out to practice Alchemy only after they have solved the problem. Help them by solving the given problem, so that they can go early today for their Alchemy practice.
+So to improve their mathematical solving ability, every day she gives a mathematical problem to solve. They can go out to practice Alchemy 
+only after they have solved the problem. Help them by solving the given problem, so that they can go early today for their Alchemy practice.
 
 Given an array A of N non-negative integers and two integers K and M. Find the number of subsequences of array A of length K which satisfies the following property:
 Suppose the subsequence is S=S1S2…SK, then for all i such that 1≤i≤K,
@@ -11,7 +12,8 @@ should hold true, where Si denotes the i-th element of the subsequence, using 1-
 
 As the number of subsequences may be very large, output the answer modulo 1000000007.
 
-PS: We also proposed the idea of making a look-alike clone through alchemy and keeping it in front of the study table. But it seems impossible to convince Edward to make a clone of his exact same height, and not taller than him. So solving the problem for him was a better choice.
+PS: We also proposed the idea of making a look-alike clone through alchemy and keeping it in front of the study table. But it seems impossible 
+to convince Edward to make a clone of his exact same height, and not taller than him. So solving the problem for him was a better choice.
 
 Input:
 The first line contains T, the number of test cases. Then the test cases follow.
@@ -32,7 +34,8 @@ Sample Input:
 Sample Output:
 8
 Explanation:
-The subsequences of length 4, satisfying the given criteria are [4,5,6,7], [4,5,6,10], [4,5,6,10], [4,5,6,1], [4,5,9,10] ,[4,5,6,4] , [4,5,0,10] and [4,5,0,10]. This accounts for a total of 8 valid subsequences.
+The subsequences of length 4, satisfying the given criteria are [4,5,6,7], [4,5,6,10], [4,5,6,10], [4,5,6,1], [4,5,9,10] ,[4,5,6,4] , [4,5,0,10] and [4,5,0,10]. 
+This accounts for a total of 8 valid subsequences.
 
 Let us take one subsequence and see why it satisfies the given property. Consider [4,5,9,10].
 
@@ -42,7 +45,7 @@ S3%M=9%3=0=3%3=3%M
 S4%M=10%3=1=4%3=4%M
 All the valid i satisfy the condition, and hence this is a valid subsequence. */
 
-/* package codechef; // don't place package name! */
+
 
 import java.util.*;
 import java.lang.*;
