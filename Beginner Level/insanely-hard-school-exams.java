@@ -3,14 +3,13 @@
 Insanely Hard School Exams
 
 After failing to clear his school mathematics examination, infinitepro decided to prepare very hard for his upcoming re-exam, starting with the topic he is weakest at ― computational geometry.
-
-Being an artist, infinitepro has C pencils (numbered 1 through C); each of them draws with one of C distinct colours. He draws N lines (numbered 1 through N) in a 2D Cartesian coordinate system; for each valid i, the i-th line is drawn with the ci-th pencil and it is described by the equation y=ai⋅x+bi.
-
-Now, infinitepro calls a triangle truly-geometric if each of its sides is part of some line he drew and all three sides have the same colour. He wants to count these triangles, but there are too many of them! After a lot of consideration, he decided to erase a subset of the N lines he drew. He wants to do it with his eraser, which has length K.
-
-Whenever erasing a line with a colour i, the length of the eraser decreases by Vi. In other words, when the eraser has length k and we use it to erase a line with a colour i, the length of the eraser decreases to k−Vi; if k<Vi, it is impossible to erase such a line.
-
-Since infinitepro has to study for the re-exam, he wants to minimise the number of truly-geometric triangles. Can you help him find the minimum possible number of truly-geometric triangles which can be obtained by erasing a subset of the N lines in an optimal way? He promised a grand treat for you if he passes the examination!
+Being an artist, infinitepro has C pencils (numbered 1 through C); each of them draws with one of C distinct colours. He draws N lines (numbered 1 through N) in a 2D Cartesian coordinate system; 
+for each valid i, the i-th line is drawn with the ci-th pencil and it is described by the equation y=ai⋅x+bi. Now, infinitepro calls a triangle truly-geometric if each of its sides is part of 
+some line he drew and all three sides have the same colour. He wants to count these triangles, but there are too many of them! After a lot of consideration, he decided to erase a subset of the N 
+lines he drew. He wants to do it with his eraser, which has length K. Whenever erasing a line with a colour i, the length of the eraser decreases by Vi. In other words, when the eraser has length k 
+and we use it to erase a line with a colour i, the length of the eraser decreases to k−Vi; if k<Vi, it is impossible to erase such a line. Since infinitepro has to study for the re-exam, he wants to 
+minimise the number of truly-geometric triangles. Can you help him find the minimum possible number of truly-geometric triangles which can be obtained by erasing a subset of the N lines in an optimal
+way? He promised a grand treat for you if he passes the examination!
 
 Input
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
